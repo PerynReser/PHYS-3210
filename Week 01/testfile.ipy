@@ -1,0 +1,50 @@
+# coding: utf-8
+2.5
+f=2.5
+s='hello'
+L=[1,2,3]
+f.is_integer()
+f.is_integer
+s.swapcase()
+L.reverse()
+L.reverse()
+L.reverse()
+L.pop(1)
+'hello'.swapcase()
+(5.0).swapcase()
+(5.0).is_integer()
+a=np.zeros(4)
+import numpy as np
+import martplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+a=np.zeros(4)
+data = np.loadtxt("data/DS_Tuc_A_W0400_N5000_B0000_sDart.dat.gz")
+a=np.zeros((3,5))
+print(a)
+a=np.ones()
+a=np.ones((3,5))
+a=np.eye((3,5))
+a=np.eye(3)
+A=np.zeros((2,3,4))
+B=np.ones((2,3,4,3))
+np.size(A)
+np.size(B)
+np.size(data)
+np.shape(A)
+np.shape(b)
+np.shape(B)
+np.shape(data)
+A.sum()
+A.mean()
+B.mean()
+B.std()
+q=(2.17,3.14,3000)
+q=((2.17,3.14,3000))
+q=array(2.17,3.14,3000)
+q=np.array([2.17,3.14,3000])
+q=np.array([2.17],[3.14],[3000])
+q=np.array([[2.17],[3.14],[3000]])
+q=np.array([[2,3,5],[7,11,13]])
+q=np.arange(1,10)
+q=np.arange(5)
+q=np.arange(2.1,5.4,0.1)

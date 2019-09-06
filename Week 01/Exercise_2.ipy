@@ -1,0 +1,27 @@
+import numpy as np
+import matplotlib.pyplot as plt
+data = np.loadtxt("data/DS_Tuc_A_W0400_N5000_B0000_sDart.dat.gz")
+np.size(data,0)
+data0 = data[:,0]
+data1 = data[:,1]
+data2 = data[:,2]
+data3 = data[:,3]
+data4 = data[:,4]
+data5 = data[:,5]
+reshape0 = np.reshape(data0,(400,5000))
+reshape1 = np.reshape(data1,(400,5000))
+reshape2 = np.reshape(data2,(400,5000))
+reshape3 = np.reshape(data3,(400,5000))
+reshape4 = np.reshape(data4,(400,5000))
+reshape5 = np.reshape(data5,(400,5000))
+reshaped_data = np.array([reshape0,reshape1,reshape2,reshape3,reshape4,reshape5])
+chains = reshape0
+print(np.shape(chains))
+for chain in chains:
+    plt.plot(chain,'-',lw=1)
+plt.show()
+mean_value = np.median(data0)
+print(mean_value)
+final_step = np.ravel(chains[:,-1])
+print("Best Mass is:"), final_step
+

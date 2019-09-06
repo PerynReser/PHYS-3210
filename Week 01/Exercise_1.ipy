@@ -1,0 +1,7 @@
+# coding: utf-8
+import numpy as np
+import matplotlib.pyplot as plt
+a = 3
+b = 4
+from numpy import sqrt
+c = sqrt(a**2 + b**2)
